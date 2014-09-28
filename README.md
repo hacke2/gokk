@@ -8,35 +8,6 @@
 最近在学习Node.js，也看了<a href="https://github.com/congyuandong/imooc">imooc</a>的源码
 ，自己模仿gokk.tv的前台搭建了一个基于Node.js + Mongoose + Bootstrap向goxiazai致敬!
 
-# 展示
-
-<figure>
-	<a href="http://www.hacke2.cn/images/article/11.jpg">
-		<img src="http://www.hacke2.cn/images/article/11.jpg" alt="home" />
-	</a>
-	<figcaption>首页一</figcaption>
-</figure>
-
-<figure>
-	<a href="http://www.hacke2.cn/images/article/12.jpg">
-		<img src="http://www.hacke2.cn/images/article/12.jpg" alt="home" />
-	</a>
-	<figcaption>首页二</figcaption>
-</figure>
-
-<figure>
-	<a href="http://www.hacke2.cn/images/article/13.jpg">
-		<img src="http://www.hacke2.cn/images/article/13.jpg" alt="home" />
-	</a>
-	<figcaption>详情页</figcaption>
-</figure>
-
-<figure>
-	<a href="http://www.hacke2.cn/images/article/14.jpg">
-		<img src="http://www.hacke2.cn/images/article/13.jpg" alt="home" />
-	</a>
-	<figcaption>新增页</figcaption>
-</figure>
 
 # 获取源码
 
