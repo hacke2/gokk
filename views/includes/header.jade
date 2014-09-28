@@ -1,0 +1,19 @@
+nav.navbar.navbar-inverse.navbar-static-top.custom-nav(role="navigation")
+	.container
+		.navbar-header
+			a.navbar-brand(href="/") Go下载
+		.collapse.navbar-collapse
+			ul.nav.navbar-nav
+				li.active
+					a(href="/") 首页
+				li
+					a(href="/") 电影
+				li
+					a(href="/") 电视剧
+				li
+					a(href="/") 综艺
+			form(action="/search",method="get")
+				.input-group
+					input.form-control(type="text",name="s",placeholder="输入影片名进行搜索...")
+					span.input-group-btn
+						button.btn.btn-default(type="submit") GO

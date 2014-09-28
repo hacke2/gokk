@@ -1,0 +1,43 @@
+extends ../layout
+
+block content
+	.container
+		each column in columns
+			.row
+				.col-md-12
+					.main-bar
+						.main-title.fl
+							h2 #{column.columnName}
+						.main-navi.fr
+							ul.nav.nav-pills(role="tablist")
+								li.active
+									a(href="#movie-all",role="tab",data-toggle="tab") 全部
+								li
+									a(href="#movie-all",role="tab",data-toggle="tab") 大陆
+								li
+									a(href="#movie-all",role="tab",data-toggle="tab") 港台
+								li
+									a(href="#movie-all",role="tab",data-toggle="tab") 欧美
+					.clearfix
+					.mian.col-md-12
+						each item in column.movies
+							.item.col-md-3.thumbnail
+								.col-md-6.movie-pic
+									a(href="/detail/#{column._id}/#{item.id}")
+										img(src="#{item.poster}",alt="#{item.title}")
+								.col-md-6.movie-info
+									a.movie-title(href="/detail/#{column._id}/#{item.id}") #{item.title}
+									span.movie-year #{item.year}
+									p.desc
+										span 导演: #{item.doctor}
+									p.desc
+										span 主演: #{item.actor}
+									p.desc
+										span 类型：#{item.type}
+									p.desc
+										span 地区：#{item.country}
+									a.btn.btn-primary(href="/detail/#{column._id}/#{item.id}") 观看正片
+
+
+										
+							

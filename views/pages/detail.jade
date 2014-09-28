@@ -1,0 +1,37 @@
+extends ../layout
+block page_css
+	link(href="/css/detail.css",rel="stylesheet")
+block content
+	.container
+		.row
+			.col-md-3
+				a(href="/movie/#{movie.id}")
+					img(src="#{movie.poster}",alt="#{movie.title}")
+			.col-md-6.movie-info
+				dl.dl-horizontal
+					dt 电影名字
+					dd= movie.title
+					dt 主演
+					dd= movie.actor
+					dt 类型
+					dd= movie.type
+					dt 国家
+					dd= movie.country
+					dt 上映年份
+					dd= movie.year
+					dt 简介
+					dd= movie.desc
+			.col-md-3
+				h3 热门电影
+				ul.list-group
+					li.list-group-item #{movie.title}
+					li.list-group-item #{movie.title}
+					li.list-group-item #{movie.title}
+					li.list-group-item #{movie.title}
+					li.list-group-item #{movie.title}
+		.row
+			a.btn.btn-primary.btn-lg.play(href="#{movie.url}") 播放正片				
+
+				
+
+

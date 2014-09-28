@@ -1,0 +1,52 @@
+.navbar-collapse .input-group {
+    width: 400px;
+    float: right;
+    margin: 8px 0 0 0;
+}
+
+.main-title {
+	width: 14%;
+	
+}
+
+.main-navi {
+	width: 80%;
+	margin-top: 15px;
+	font-size: 0.8em;
+}
+.item {
+	margin: 5px;
+}
+
+.movie-pic {
+	padding: 2px
+}
+.movie-title {
+	font-size: 1em;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.movie-year {
+	font-size: 0.8em;
+	color: #BDBDBD;
+	margin-left: 4px; 
+}
+
+
+p.desc {
+	font-size: 0.8px;
+	margin: 2px 0;
+	color: #6B6868;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow: hidden; 
+}
+
+.movie-info {
+	padding: 2px 0 0 11px;
+}
+
+.movie-info .btn {
+	margin-top: 20px;
+}

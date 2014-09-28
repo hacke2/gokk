@@ -1,0 +1,25 @@
+{
+  "name": "gokk",
+  "version": "0.0.1",
+  "authors": [
+    "wangxinglong <hacke2@qq.com>"
+  ],
+  "description": "gokk",
+  "main": "app",
+  "keywords": [
+    "gokk"
+  ],
+  "license": "MIT",
+  "homepage": "www.hacke2.cn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
